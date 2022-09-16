@@ -1,0 +1,227 @@
+input{
+    outline: none;
+}
+
+body{
+    width: 1852px;
+}
+.logo-header{
+    width: 90px;
+    transition: width 0.7s;
+    margin-left: 80px;
+}
+
+.logo-header:hover{
+    width: 100px;
+}
+
+.content-header-cfg{
+    height: 75px;
+}
+.header-div{
+    width: 100%;
+    position: fixed;
+    height: 70px;
+    z-index: 1;
+}
+
+.li-svg-header{
+    transition: 0.44s;
+}
+
+.li-svg-header:hover{
+   color: #00BAFF;
+}
+
+.nav-head-cfg{
+    height: 100%;
+    width: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    margin-top: 80px;
+    z-index: 1;
+}
+
+.parallax-head-div{
+    position: relative;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    overflow: hidden;
+    min-width: 100%;
+    max-width: 100%;
+    background-image: url(./img-parallax/parallax-2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.parallax-head-div:before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background-color: rgba(0,0,0,0.6);
+}
+
+.parallax-head-div h2{
+    position: relative;
+}
+
+
+.button-about{
+    background-color: #00BAFF;
+    width: 150px;
+    transition: 0.7s, width 0.7s
+}
+
+.button-about:hover{
+    background-color: #1167d7;
+    width: 200px;
+}
+
+.img-about{
+    width: 100px;
+}
+
+.div-about-cfg{
+    max-width: 500px;
+    height: 335px;
+}
+
+.parallax-head-div-2{
+    position: relative;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    overflow: hidden;
+    min-width: 100%;
+    max-width: 100%;
+    background-image: url(./img-parallax/logistica-parallax2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.parallax-head-div-2:before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background-color: rgba(0,0,0,0.6);
+}
+
+.parallax-head-div-2 h2, .parallax-head-div-2 button{
+    position: relative;
+}
+
+.button-parallax{
+    background-color: #04b4f4;
+    width: 120px;
+    height: 40px;
+    transition: 0.7s, width 0.7s
+}
+
+.button-parallax:hover{
+    background-color: #1167d7;
+    width: 200px;
+}
+
+.footer-logo{
+    width: 200px;
+}
+
+.footer-logos{
+    width: 40px;
+}
+
+footer{
+    width: 100%;
+    margin-left: 11px
+}
+
+
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+  transition: 0.44s;
+}
+
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 22px;
+  display: block;
+  transition: 0.3s;
+  color: white;
+}
+
+
+.sidebar a:hover {
+    color: #04b4f4;
+}
+
+.teste-div:hover {
+    color: #04b4f4;
+}
+
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #212529;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    transition: 0.44s;
+}
+
+.openbtn:hover {
+    color: #04b4f4;
+}
+
+body {
+    background-color: white;
+    color: black;
+    font-size: 25px;
+    transition: 0.4s;
+}
+  
+  .dark-mode {
+    background-color: #212529;
+    color: white;
+    transition: 0.4s;
+  }
+
+  .img-about-invert{
+    filter: invert(100%);
+  }
+  .button-dark-mode{
+    width: 1.5em;
+    cursor: pointer;
+
+}
